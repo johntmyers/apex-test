@@ -1,9 +1,9 @@
 from distutils.core import setup
 
 setup(
-    name='arbor-one-core',
+    name='apex-demo',
     version='0.1.1',
-    author='Arbor Networks',
+    author='John Myers',
     packages=[
         'core',
         'functions.onefish'

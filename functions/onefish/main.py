@@ -26,3 +26,7 @@ def handle(event, context):
     logger.info(helper.get_uuid())
     fish = base.Fish('Red')
     fish.swim()
+
+
+def test_me(one, two):
+    return one + two
