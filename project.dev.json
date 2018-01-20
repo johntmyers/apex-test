@@ -1,0 +1,8 @@
+{
+    "name": "fish-DEV",
+    "description": "fishes-DEV",
+    "memory": 128,
+    "timeout": 5,
+    "role": "arn:aws:iam::019288756089:role/fish_lambda_function",
+    "environment": {}
+  }

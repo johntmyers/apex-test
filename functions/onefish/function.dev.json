@@ -1,0 +1,10 @@
+{
+    "runtime": "python2.7",
+    "handler": "main.handle",
+    "environment": {
+    },
+    "hooks": {
+        "build": "pip install -r requirements.txt -t lib",
+        "clean": "rm -rf lib"
+    }
+}
